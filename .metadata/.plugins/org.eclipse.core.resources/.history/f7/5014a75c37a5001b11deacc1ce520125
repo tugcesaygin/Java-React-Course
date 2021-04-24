@@ -1,0 +1,47 @@
+package oopintro;
+
+public class Main {
+
+	public static void main(String[] args) { // referans olusturma 
+		
+		
+		
+		Product product1 = new Product();
+		product1.id = 1;
+		product1.name = "Lenovo V14";
+		product1.unitPrice = 17000;
+		product1.detail = "32 GB RAM";
+		
+
+		Product product2 = new Product();
+		product2.id = 2;
+		product2.name = "Lenovo V1";
+		product2.unitPrice = 10000;
+		product2.detail = "8 GB RAM";
+		
+		
+
+		Product product3 = new Product();
+		product3.id = 3;
+		product3.name = "HP";
+		product3.unitPrice = 15000;
+		product3.detail = "16 GB RAM";
+		
+		
+		Product[] products = {product1,product2,product3};
+		
+		for(Product product : products) { //Product verinin turu , product degisken , product i producti productda donduruyo 
+			
+			System.out.println(product.name);
+		}
+		
+	
+		System.out.println(products.length);
+		
+		
+		
+
+
+	}
+
+}

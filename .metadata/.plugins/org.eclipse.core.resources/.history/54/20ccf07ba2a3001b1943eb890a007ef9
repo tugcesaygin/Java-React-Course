@@ -1,0 +1,38 @@
+package begin;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//camelCase
+		// don't repeat yourself yazdigin kodu farkli yerlerde degistirmek zorunda 
+		//kalmamak icin degisken icinde tut. boylece bir yerde degisim yapman yetecektir.
+		
+		String internetButton = "Internet Butonu";
+		double dolarYesterday = 8.15;
+		double dolarToday = 8.20;
+		int vade = 36;
+		boolean isItFall = false;
+	
+		System.out.println(internetButton);
+		
+		if(dolarToday<dolarYesterday) {
+			
+			System.out.println("Dolar Down");
+			
+		} else {System.out.println("Dolar High");
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package oopintro;
+
+public class ProductManager {
+
+	public void addToCart() {  //metot
+		
+		System.out.println("Sepete ekleme kodu acildi");
+		
+	}
+	
+}

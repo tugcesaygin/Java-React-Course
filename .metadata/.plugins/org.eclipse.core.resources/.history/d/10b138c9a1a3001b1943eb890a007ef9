@@ -1,0 +1,23 @@
+package begin;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//camelCase
+		// don't repeat yourself yazdigin kodu farkli yerlerde degistirmek zorunda 
+		//kalmamak icin degisken icinde tut. boylese bir yerde degisim yapman yetecektir.
+		
+		String internetButton = "Internet Butonu";
+		System.out.println(internetButton);
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package begin;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String internetButton = "Internet Butonu";
+		System.out.println(internetButton);
+
+	}
+
+}

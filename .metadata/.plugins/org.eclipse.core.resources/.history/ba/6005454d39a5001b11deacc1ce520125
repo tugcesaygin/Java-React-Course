@@ -1,0 +1,15 @@
+package oopintro;
+
+public class Product {
+	
+	public Product() {
+		
+		System.out.println("Ben calistim.");
+	}
+	int id;
+	String name;
+	double unitPrice;
+	String detail;
+	
+
+}
