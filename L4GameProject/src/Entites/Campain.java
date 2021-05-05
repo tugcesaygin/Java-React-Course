@@ -2,17 +2,17 @@ package Entites;
 
 import java.time.LocalDate;
 
-public class Campain {
+public class Campaign {
 
-	public String campainName;
+	public String campaignName;
 	private LocalDate startedAt;
 	private LocalDate completedAt;
 	private int discountRate;
 	
 	
-	public Campain(String campainName, LocalDate startedAt, LocalDate completedAt, int discountRate) {
+	public Campain(String campaignName, LocalDate startedAt, LocalDate completedAt, int discountRate) {
 		super();
-		this.campainName = campainName;
+		this.campaignName = campaignName;
 		this.startedAt = startedAt;
 		this.completedAt = completedAt;
 		this.discountRate = discountRate;
@@ -20,12 +20,12 @@ public class Campain {
 
 	
 	
-	public String getCampainName() {
-		return campainName;
+	public String getCampaignName() {
+		return campaignName;
 	}
 
-	public void setCampainName(String campainName) {
-		this.campainName = campainName;
+	public void setCampaignName(String campaignName) {
+		this.campaignName = campaignName;
 	}
 
 	public LocalDate getStartedAt() {
