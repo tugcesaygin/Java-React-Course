@@ -1,26 +1,26 @@
 package Concrete;
 
-import Abstract.ICampainService;
-import Entites.Campain;
+import Abstract.ICampaignService;
+import Entites.Campaign;
 
-public class CampainManager implements ICampainService {
+public class CampaignManager implements ICampaignService {
 
 	@Override
-	public void addNewCampain(Campain campain) {
-		System.out.println("New Campain added : " + campain.campainName);
+	public void addNewCampaign(Campaign campain) {
+		System.out.println("New Campaign added : " + campaign.campaignName);
 		
 	}
 
 	@Override
-	public void deleteCampain(Campain campain) {
+	public void deleteCampaign(Campain campain) {
 		
-		System.out.println("Campain deleted. : " + campain.campainName);
+		System.out.println("Campaign deleted. : " + campaign.campaignName);
 	}
 
 	@Override
-	public void updateCampain(Campain campain) {
+	public void updateCampaign(Campaign campaign) {
 		
-		System.out.println("Campain updated : " + campain.campainName);
+		System.out.println("Campaign updated : " + campaign.campaignName);
 	}
 
 	
