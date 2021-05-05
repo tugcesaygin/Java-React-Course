@@ -1,12 +1,12 @@
 package Abstract;
 
-import Entites.Campain;
+import Entites.Campaign;
 import Entites.Game;
 import Entites.Gamer;
 
 public interface ISaleService {
 
-	void sale(Gamer gamer, Game game , Campain compain);
+	void sale(Gamer gamer, Game game , Campaign compaign);
 	
 	
 }
