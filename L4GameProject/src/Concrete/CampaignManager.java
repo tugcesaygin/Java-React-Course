@@ -20,7 +20,7 @@ public class CampaignManager implements ICampaignService {
 	@Override
 	public void updateCampaign(Campaign campaign) {
 		
-		System.out.println("Campaign updated : " + campaign.campaignName);
+		System.out.println("Campaign updated :  " + campaign.campaignName);
 	}
 
 	
